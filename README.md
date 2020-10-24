@@ -13,6 +13,8 @@ This is a port of the original [hugo-theme-sam][hugo-sam] theme for Hugo ([Licen
 
 See [`upstream`][upstream] for source code take from there.
 
+Base fonts removed.
+
 ## Installation
 
 The easiest way to install this theme is to either clone it ...
