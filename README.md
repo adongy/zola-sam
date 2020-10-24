@@ -1,11 +1,9 @@
-[![Build Status][build-img]][build-url]
-[![Demo][demo-img]][demo-url]
-
 # Sam
 
 > A Simple and Minimalist theme with a focus on typography and content.
 >
 > [Zola][zola] port of [hugo-theme-sam][hugo-sam].
+> Based on original fork from https://github.com/janbaudisch/zola-sam.git ( Jan Baudisch )
 
 ![Screenshot](screenshot.png)
 
@@ -20,13 +18,13 @@ See [`upstream`][upstream] for source code take from there.
 The easiest way to install this theme is to either clone it ...
 
 ```
-git clone https://github.com/janbaudisch/zola-sam.git themes/sam
+git clone https://github.com/adongy/zola-sam.git themes/sam
 ```
 
 ... or to use it as a submodule.
 
 ```
-git submodule add https://github.com/janbaudisch/zola-sam.git themes/sam
+git submodule add https://github.com/adongy/zola-sam.git themes/sam
 ```
 
 Either way, you will have to enable the theme in your `config.toml`.
@@ -133,13 +131,9 @@ To place some text at the end of pages, set the following:
 text = "Some footer text."
 ```
 
-[build-img]: https://travis-ci.com/janbaudisch/zola-sam.svg?branch=master
-[build-url]: https://travis-ci.com/janbaudisch/zola-sam
-[demo-img]: https://img.shields.io/badge/demo-live-green.svg
-[demo-url]: https://zola-sam.janbaudisch.dev
 [zola]: https://getzola.org
 [hugo-sam]: https://github.com/victoriadotdev/hugo-theme-sam
-[upstream]: https://github.com/janbaudisch/zola-sam/blob/master/upstream
-[upstream-license]: https://github.com/janbaudisch/zola-sam/blob/master/upstream/LICENSE
-[config]: https://github.com/janbaudisch/zola-sam/blob/master/config.toml
+[upstream]: https://github.com/adongy/zola-sam/blob/master/upstream
+[upstream-license]: https://github.com/adongy/zola-sam/blob/master/upstream/LICENSE
+[config]: https://github.com/adongy/zola-sam/blob/master/config.toml
 [date-format-docs]: https://docs.rs/chrono/latest/chrono/format/strftime/index.html
